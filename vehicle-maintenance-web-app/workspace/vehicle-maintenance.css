@@ -1,0 +1,159 @@
+.navbar
+{
+    background-color: red;
+    padding: 5px;
+}
+
+.navlink:link, .navlink:visited, .homebutton:link, .homebutton:visited,
+.link:link, .link:visited, .button
+{
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-width: 2px;
+}
+.navlink:hover
+{
+    color: red;
+    background-color: white;
+}
+
+.link:link, .link:visited, .button
+{
+    color: red;
+    border-color: red;
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+.smalllink:link, .smalllink:visited
+{
+    color: red;
+}
+
+.link:hover, .button:hover
+{
+    color: white;
+    background-color: red;
+}
+
+.homebutton:link, .homebutton:visited
+{
+    border-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+#navlinks
+{
+    text-align: right;
+}
+
+.addbutton, .addnew
+{
+    text-align: left;
+}
+
+.addbutton
+{
+    margin:15px;
+}
+
+.itembutton
+{
+    text-align: right;
+}
+
+@media only screen and (max-width: 991px) 
+{
+    #navlinks
+    {
+        text-align: center;
+        font-weight: bold
+    }
+    .homebutton
+    {
+        text-align: center;
+        margin: 5px;
+    }
+    .addbutton, .addnew, .itembutton
+    {
+        text-align: center;
+    }
+}
+
+.list 
+{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+.data, .vehiclehead
+{
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.vehiclehead
+{
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: none;
+}
+
+
+input[type=text], input[type=password], input[type=number], input[type=date], select, textarea
+{
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.login, .login:hover, .login:visited
+{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.centerdata
+{
+    padding: 15px;
+}
+
+.footer 
+{
+    margin-top: 40px;
+    padding: 20px;
+    color: #999;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#blockColorblindContent
+{
+    display: none;
+}
+
+html, body 
+{
+    margin: 0;
+    height: 100%;
+}
